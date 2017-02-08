@@ -1,0 +1,75 @@
+﻿body {
+
+
+   
+}
+
+.footer {
+
+    color: lightgrey;
+    position:fixed;
+    text-align: right;
+    bottom:0px;
+    right:0px;
+    margin-top: 190px;
+    margin-right: 20px;
+
+}
+
+}
+
+.text {
+
+      font: normal normal bold 20px "droid-sans", Helvetica, sans-serif;
+
+}
+
+.icon {
+
+    padding-bottom: 30px;
+
+}
+
+.h1 {
+
+  font: normal normal bold 50px "droid-sans", Helvetica, sans-serif;
+
+}
+
+.h3 {
+
+  font: normal normal bold 30px "droid-sans", Helvetica, sans-serif;
+  margin-left: 10px
+
+}
+
+.button {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+  cursor: pointer;
+  top: 0;
+  padding: 0 22px;
+  border: 4px solid rgb(255,255,255);
+  -webkit-border-radius: 30px / 60px;
+  border-radius: 30px / 60px;
+  font: normal normal bold 20px/50px "droid-sans", Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #9E1B34;
+}
+
+.button:hover {
+  color: #9E1B34;
+  background: #ffffff;
+
+#webObject {
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+        }
