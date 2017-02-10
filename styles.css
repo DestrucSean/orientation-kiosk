@@ -1,6 +1,4 @@
-﻿body {
-
-
+body {
    
 }
 
@@ -9,12 +7,10 @@
     color: lightgrey;
     position:fixed;
     text-align: right;
-    bottom:0px;
-    right:0px;
+    bottom:0;
+    right:0;
     margin-top: 190px;
     margin-right: 20px;
-
-}
 
 }
 
@@ -30,13 +26,13 @@
 
 }
 
-.h1 {
+h1 {
 
   font: normal normal bold 50px "droid-sans", Helvetica, sans-serif;
 
 }
 
-.h3 {
+h3 {
 
   font: normal normal bold 30px "droid-sans", Helvetica, sans-serif;
   margin-left: 10px
@@ -65,8 +61,9 @@
 }
 
 .button:hover {
-  color: #9E1B34;
-  background: #ffffff;
+    color: #9E1B34;
+    background: #ffffff;
+}
 
 #webObject {
             margin: 0 auto;
