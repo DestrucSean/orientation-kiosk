@@ -1,27 +1,28 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 
     <title>Temple Harrisburg Orientation Kiosk</title>
 	<meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" />
-    
+
 </head>
+
 <body id="page">
 
-    <table style="margin: 10% auto auto auto; width: 75%">
+    <table style="margin: 10% auto auto auto; width: 75%"><!-- Will: Using tables for layout is unsemantic becuase this isn't tabular data. I would strip out all the <table>,<tr> and <td> elements in favor of <div>s or more semantic elements.-->
         <tr>
-            <td colspan="3" align="center"  id="table-heading" class="auto-style1"><h1 id="h1" class="h1">Need assistance?</h1></td>
+            <td colspan="3" align="center"  id="table-heading" class="auto-style1"><h1 id="h1" class="h1">Need assistance?</h1></td><!-- Might be a little verbose give your <h1> a class of h1. See stylesheet for more feedback.-->
         </tr>
         <tr>
             <td colspan="3">&nbsp;</td>
         </tr>
         <tr>
-            <td colspan="3">&nbsp;</td>
+            <td colspan="3">&nbsp;<!-- Will: Remember, markup sets the foundation of the page while the aesthetics should be handled with CSS. Non-breaking spaces for the purpose of spacing is unsemantic.--></td>
         </tr>
         <tr align="center">
             <td>
-                 <a href="schedules.html"><img align="center" width="150px" height="150px" alt="Schedules" src="assets/images/schedules.png" class="icon"/></a></td>
+                 <a href="schedules.html"><img align="center" width="150px" height="150px" alt="Schedules" src="assets/images/schedules.png" class="icon"/></a><!-- Will: Good usage of attributes here, consider setting width and height with CSS though.--></td>
             <td>
                  <a href="events.html"><img align="center" width="150px" height="150px" alt="Events" src="assets/images/events.png" class="icon"/></a></td>
             <td>
@@ -36,9 +37,8 @@
                 <a href="/directions.html"><input id="Button3" type="button" value="Directions" class="button" /></a></td>
         </tr>
     </table>
-  
-              <p class="footer">Temple Harrisburg Orientation Kiosk v1.0 - Programmed by Sean Maxwell</p>
 
+              <footer><p class="footer">Temple Harrisburg Orientation Kiosk v1.0 - Programmed by Sean Maxwell</p></footer>
 
 </body>
 </html>
