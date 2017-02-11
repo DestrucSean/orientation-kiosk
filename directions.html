@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Temple Harrisburg Orientation - Directions</title>
@@ -14,9 +14,31 @@
             videoPlayer.src = url;
             videoPlayer.play();
 
-                }
+        }
+
+</script><!-- Will: general feedback structure of this application. Might be worth your while to create an array of objects correlating to the video content below (example below). Iterate through the array and create DOMnodes with the content. Might make things easier to abstract and maintain long term. Depending on the longterm scale might be worth it to abstract into an API.
+
+<script>
+
+var content = [{
+ src: 'assets/videos/118.mp4',
+ value: "Room 118",
+ id: 16,
+},
+{
+ src: 'assets/videos/205.mp4',
+ value: "Room 205",
+ id: 17,
+}] 
+
+
+content.foreach(function(item){
+    //create HTML here and insert into the DOM
+})
 
 </script>
+
+-->
 
 </head>
 <body>
@@ -58,9 +80,9 @@
            </tr>
         </table>
 
-        <div style="width: 75%; height: 775px; margin: auto;">
+        <div style="width: 75%; height: 500px; margin: auto;">
 
-            <video id="video" style="width: 100%; height: 100%; margin: auto;"></video>
+            <video id="video" style="width: 100%; height: 100%; margin: auto;">Your browser does not support this video.</video>
 
         </div>
 
