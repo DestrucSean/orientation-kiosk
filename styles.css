@@ -1,5 +1,5 @@
 body {
-   
+
 }
 
 .footer {
@@ -40,6 +40,7 @@ h3 {
 }
 
 .button {
+  text-decoration:  none;
   display: inline-block;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
