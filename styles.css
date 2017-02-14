@@ -6,16 +6,11 @@ body {
 
 }
 
-.footer {
-
+footer {
     color: lightgrey;
-    position:fixed;
-    text-align: right;
-    bottom:0;
-    right:0;
-    margin-top: 190px;
-    margin-right: 20px;
-
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
 
 .text {
@@ -35,7 +30,7 @@ h1 {
   font: normal normal bold 50px "droid-sans", Helvetica, sans-serif;
     text-align: center;
     position: relative;
-    margin-top: 20%;
+
 
 
 }
@@ -165,9 +160,15 @@ h3 {
     }
 
 .view {
-    height: 100%;
-    width: 100%;
+
+    margin: 0 auto;
+    bottom: 5px;
+    left: 5px;
+    right: 5px
+
 }
+
+
 
 .button:hover {
     color: #9E1B34;
@@ -180,18 +181,67 @@ h3 {
             height: 100%;
  }
 
+@media screen and (max-width: 1100px) {
 
-
-@media screen and (min-width: 650px) {
-    .view {
-        width: 650px;
-        height: 975px;
+    h1 {
+        font-size: 25px;
     }
-}
 
-@media screen and (min-width: 700px) {
+    .navIcon {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navIcon img{
+        height: 60px;
+        width: 60px;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .navIcon a{
+        font-size: 15px;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
     .view {
         width: 100%;
-        height: 975px;
+        height: 775px;
+    }
+
+    .button {
+
+        font-size: 15px;
+
+    }
+
+    .pageIcon {
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .backButton {
+
+        font-size: 15px;
+        margin: 0;
+
+
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    .view {
+        width: 100%;
     }
 }
