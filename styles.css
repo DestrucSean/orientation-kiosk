@@ -6,11 +6,44 @@ body {
 
 }
 
+.mainNavIcons {
+
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:60em;
+    height:40em;
+    margin-top: -20em; /*set to a negative number 1/2 of your height*/
+    margin-left: -30em; /*set to a negative number 1/2 of your width*/
+
+}
+
+.logo {
+    width: 250px;
+}
+
+.time {
+    position: fixed;
+    font: normal normal bold 30px "droid-sans", Helvetica, sans-serif;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    bottom: 0;
+    left: 0;
+    float: left;
+
+}
+
 footer {
     color: lightgrey;
     position: fixed;
     bottom: 10px;
     right: 10px;
+}
+
+footer:hover {
+    color: #9E1B34;
 }
 
 .text {
@@ -190,6 +223,7 @@ h3 {
     .navIcon {
         text-align: center;
         width: 100%;
+        margin-top: 10px;
     }
 
     .navIcon img{
