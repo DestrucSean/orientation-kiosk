@@ -6,11 +6,27 @@
     <meta charset="utf-8" />
     <link href="styles.css" rel="stylesheet" />
 
+    <script>
+        function startTime() {
+            var time = new Date();
+            time = time.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', hour12: true});
+            document.getElementById('time').innerHTML =
+                time;
+        }
+
+    </script>
+
 </head>
 
-<body>
+<body onload="startTime()">
 
-<div style="position: relative; vertical-align: center; margin: 8% auto; height: 100%; width: 100%; ">
+<img alt="Temple University Logo" class="logo" src="assets/images/logo.jpg" />
+
+<div style="float: right; position: fixed; top: 0; right: 0; display: inline-block;">
+    <img onclick="window.location.href=window.location.href" alt="Refresh Icon" class="refreshIcon" src="assets/images/refresh.png" />
+</div>
+
+<div class="mainNavIcons">
 <h1>Need assistance?</h1>
 
 <div class="navIcon">
@@ -30,7 +46,9 @@
 </div>
 </div>
 
-<footer>Temple Harrisburg Orientation Kiosk v1.0 - Programmed by Sean Maxwell</footer>
+<div id="time" class="time"></div>
+<footer>Temple Harrisburg Orientation Kiosk v1.1 - Programmed by Sean Maxwell</footer>
+
 
 </body>
 </html>
