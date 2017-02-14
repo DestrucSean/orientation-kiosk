@@ -19,26 +19,21 @@
 
 <body>
 
-        <table style="width:100%;"><!-- Will: Same feedback as the index.html regarding tables with non-tabular data.-->
-            <tr>
-                <td style="text-align: center;"><img width="75" height="75" alt="Schedules Icon" src="assets/images/schedules.png"></td>
-                <td colspan="4"><h3 class="h3">Select a schedule below:</h3></td>
-                <td style="width: 400px"></td>
-                <td style="text-align:center"><a href="index.html" id="back" class="button">Back</a></td>
-            </tr>
-            <tr>
-                <td colspan="7"><hr /></td>
-            </tr>
-         <tr>
-            <td><input onclick="setSched('https://docs.google.com/spreadsheets/d/1f3x_kiqHZroilrVuHmk8YWCfQ1qTZKfQKspTGWTivII/pubhtml?widget=true&amp;headers=false')" id="spring" type="button" value="Spring" class="button"></td>
-            <td><input onclick="setSched('https://docs.google.com/spreadsheets/d/1YBMGKFPqsYc76H9AGec3dveil1bFHRBmc1CmDsPwka0/pubhtml?widget=true&amp;headers=false')" id="summeri" type="button" value="Summer I" class="button"></td>
-            <td><input onclick="setSched('https://docs.google.com/spreadsheets/d/1Wpie60VCTrFVqjLRKBEMyTW0UT4HvvMMWIoefngSWgU/pubhtml?widget=true&amp;headers=false')" id="summerii" type="button" value="Summer II" class="button"></td>
-            <td><input onclick="setSched('https://docs.google.com/spreadsheets/d/12Iryzv4pzdehq_F4PhNZcfRnVqHTM3WvqO4r4a0GlSo/pubhtml?widget=true&amp;headers=false')" id="fall" type="button" value="Fall" class="button"></td>
-            </tr>
-            <tr>
-             <td colspan="7"><hr></td>
-         </tr>
-    </table>
+<img class="pageIcon" width="75" height="75" alt="Schedules Icon" src="assets/images/schedules.png">
+<h3>Select a schedule below:</h3>
+<a href="index.html" id="back" class="backButton">Back</a>
+
+<hr>
+
+<div style="text-align: center;">
+<input onclick="setSched('https://docs.google.com/spreadsheets/d/1f3x_kiqHZroilrVuHmk8YWCfQ1qTZKfQKspTGWTivII/pubhtml?widget=true&amp;headers=false')" id="spring" type="button" value="Spring" class="schedButton">
+<input onclick="setSched('https://docs.google.com/spreadsheets/d/1YBMGKFPqsYc76H9AGec3dveil1bFHRBmc1CmDsPwka0/pubhtml?widget=true&amp;headers=false')" id="summeri" type="button" value="Summer I" class="schedButton">
+<input onclick="setSched('https://docs.google.com/spreadsheets/d/1Wpie60VCTrFVqjLRKBEMyTW0UT4HvvMMWIoefngSWgU/pubhtml?widget=true&amp;headers=false')" id="summerii" type="button" value="Summer II" class="schedButton">
+<input onclick="setSched('https://docs.google.com/spreadsheets/d/12Iryzv4pzdehq_F4PhNZcfRnVqHTM3WvqO4r4a0GlSo/pubhtml?widget=true&amp;headers=false')" id="fall" type="button" value="Fall" class="schedButton">
+</div>
+
+<hr>
+<br>
 
 <iframe class="view" src="https://drive.google.com/drive/folders/0B_AHalN6xuL-YjUtdHc3RHlSWXc?usp=sharing" id="schediframe"></iframe><!-- Will: Interesting application implementation. -->
 
